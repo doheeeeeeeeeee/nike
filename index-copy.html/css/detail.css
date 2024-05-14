@@ -1,0 +1,90 @@
+.product {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 76px;
+}
+
+.product .slider {
+    width: 580px;
+    height: 580px;
+    background-color: #ddd;
+    position: relative;
+}
+
+.product .slider .container .arrows {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.slide {
+    width: 580px;
+    height: 580px;
+}
+
+.product .slider .container .slider .items{
+    width: 580px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .slide_container .arrows{
+    width: 60px;
+    height: 60px;
+    border-color: #fff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+
+/*size*/
+.infos{
+    width: 524px ;
+}
+
+.infos title{
+    margin-bottom: 20px;
+}
+
+.infos title p .cate{ 
+    
+}
+
+.infos title h3{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 14px 0 36px;
+}
+
+.infos title .size_title span{
+    font-weight: 14px;
+}
+
+
+.infos .size{
+    display: flex;
+    gap: ;
+}
+
+.info .size li{
+    width: 92px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #111;
+    cursor: pointer;
+}
+
+
+.infos .size li :hover{ 
+    background-color: #ddd;
+}
