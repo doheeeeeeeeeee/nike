@@ -1,5 +1,5 @@
 #2024
 
 
-##swoper
+##swiper
 ##https://swiperjs.com/
